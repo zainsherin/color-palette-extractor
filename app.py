@@ -1,3 +1,6 @@
+import cv2
+import matplotlib.pyplot as plt
+from sklearn.cluster import KMeans
 
 img = cv2.imread("poster.jpg")
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
